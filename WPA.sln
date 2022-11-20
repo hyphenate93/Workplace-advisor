@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPA", "WPA\WPA.csproj", "{6BD41338-68EF-4B09-9DA8-7415BA80BD71}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WPADB", "WPADB\WPADB.sqlproj", "{95DCD5DA-BDFC-4995-981F-1F789D4A8473}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BD41338-68EF-4B09-9DA8-7415BA80BD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD41338-68EF-4B09-9DA8-7415BA80BD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD41338-68EF-4B09-9DA8-7415BA80BD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD41338-68EF-4B09-9DA8-7415BA80BD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95DCD5DA-BDFC-4995-981F-1F789D4A8473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95DCD5DA-BDFC-4995-981F-1F789D4A8473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95DCD5DA-BDFC-4995-981F-1F789D4A8473}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{95DCD5DA-BDFC-4995-981F-1F789D4A8473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95DCD5DA-BDFC-4995-981F-1F789D4A8473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95DCD5DA-BDFC-4995-981F-1F789D4A8473}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30D79C96-5838-4E60-AFF2-7EF8B2792BB8}
+	EndGlobalSection
+EndGlobal
