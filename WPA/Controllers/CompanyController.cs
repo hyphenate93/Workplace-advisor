@@ -23,16 +23,28 @@ namespace WPA.Controllers
             ViewBag.companyList = companies;
             return View();
         }
-        public IActionResult Add()
+        [HttpPost]
+        public IActionResult Add(CompanyModel model)
         {
+            // new random guid for company id
+            model.CompanyId = Guid.NewGuid();
+            _dbContext.Add(model);
+            _dbContext.SaveChanges();
             return View();
         }
-        public IActionResult Edit()
+        [HttpPost]
+        public IActionResult Edit(CompanyModel model)
         {
+            _dbContext.Update(model);
+            _dbContext.SaveChanges();
             return View();
         }
-        public IActionResult Delete()
+        [HttpPost]
+        public IActionResult Delete(CompanyModel model)
         {
+            _dbContext.Remove(model);
+            _dbContext.SaveChanges();
+
             return View();
         }
         

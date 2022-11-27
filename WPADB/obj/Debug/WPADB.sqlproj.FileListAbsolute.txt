@@ -2,9 +2,5 @@ C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER01\MSSQL\DATA\WPADB.dac
 C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER01\MSSQL\DATA\WPADB.dll
 C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER01\MSSQL\DATA\WPADB.pdb
 C:\Users\andre\source\repos\WPA\WPADB\obj\Debug\WPADB.sqlproj.AssemblyReference.cache
-C:\Users\andre\source\repos\WPA\WPADB\obj\Debug\Model.xml
-C:\Users\andre\source\repos\WPA\WPADB\obj\Debug\refactor.xml
-C:\Users\andre\source\repos\WPA\WPADB\obj\Debug\postdeploy.sql
-C:\Users\andre\source\repos\WPA\WPADB\obj\Debug\predeploy.sql
 C:\Users\andre\source\repos\WPA\WPADB\obj\Debug\WPADB.dll
 C:\Users\andre\source\repos\WPA\WPADB\obj\Debug\WPADB.pdb

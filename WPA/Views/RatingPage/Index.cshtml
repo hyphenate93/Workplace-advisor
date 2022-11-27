@@ -10,8 +10,9 @@
 <div class="text-center">
     
     <h1 class="display-4">Company ratings page</h1>
-    @foreach (var company in @ViewBag.companyList)
+    @foreach (var company in Model.CompanyList)
         {
+
             <div>@company.Name</div>
             <div>@company.Rating</div>
 
@@ -34,42 +35,50 @@
         <input class="d-none" style="display:none" type="radio" id="rating0" name="rating" value="0" /><label class="d-none" for="rating0" title="No star"></label>
     </fieldset>
 
-    
-    
-    <div class="height-100 container d-flex justify-content-center align-items-center">
-        <div class="card p-3">
-            <h1> TestCompany </h1>
 
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="ratings">
-                    <i class="fa fa-star rating-color"></i>
-                    <i class="fa fa-star rating-color"></i>
-                    <i class="fa fa-star rating-color"></i>
-                    <i class="fa fa-star rating-color"></i>
-                    <i class="fa fa-star"></i>
-                </div>
-                <h5 class="review-count">12 Total reviews</h5>
-            </div>
+    @foreach (var company in Model.CompanyList)
+    {
 
+       
+        <div class="height-100 container d-flex justify-content-center align-items-center">
+            <div class="card p-3">
 
-            <div class="mt-5 d-flex justify-content-between align-items-center">
-                <h5 class="review-stat">Your rating</h5>
-                <div class="small-ratings">
-                    <i class="fa fa-star rating-color"></i>
-                    <i class="fa fa-star rating-color"></i>
-                    <i class="fa fa-star rating-color"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+                <h1> @company.Name </h1>
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="ratings">
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h5 class="review-count">12 Total reviews</h5>
                 </div>
 
+
+                <div class="mt-5 d-flex justify-content-between align-items-center">
+                    <h5 class="review-stat">Your rating</h5>
+                    <div class="small-ratings">
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+
+                </div>
+
+                <span class="border mt-4"> how likely are you to recommend our business to a friend or colleague?</span>
+
+
+
             </div>
-
-            <span class="border mt-4"> how likely are you to recommend our business to a friend or colleague?</span>
-
-
-
         </div>
-    </div>
+
+
+    }
+ 
 
 </div>
 <style>
